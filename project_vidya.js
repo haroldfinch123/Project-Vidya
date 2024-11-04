@@ -1,7 +1,5 @@
 const { log } = require('console');
-const { stringify } = require('querystring');
 const readline = require('readline');
-const { json } = require('stream/consumers');
 
 var defaultUsers = [
     { id: 1, name: 'Adi Thomas', userName: 'adi', password: 'thomas' },
